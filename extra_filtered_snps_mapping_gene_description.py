@@ -81,6 +81,7 @@ def sam_parsed(sam_file):
     #  print ("Number of locus with problems " + str(a))
      return sam_dic
 
+
 def vcf_parsed (vcf_file, sam_dic):
      """ Open the .vcf file provided from the users and retain the information"
          "about the real SNPs localization """
