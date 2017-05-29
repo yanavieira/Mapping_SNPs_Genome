@@ -24,6 +24,7 @@ parser.add_argument("-in_loci", dest="loci_infile", nargs="*", help="open all "
 
 arg = parser.parse_args()
 
+
 def sam_parsed(sam_file):
      """ Open the .sam file provided from the users and retain the information"
      "about the Cg_scaffold that the locis mapped."""
